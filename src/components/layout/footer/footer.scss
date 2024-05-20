@@ -1,0 +1,15 @@
+.footer {
+    background-color: #F1F1F1;
+    padding: 50px 110px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link {
+    color: #000000;
+
+    &:hover {
+        color: #63D1BB;
+    }
+}

@@ -1,0 +1,41 @@
+.products {
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 0;
+}
+
+.products__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1440px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+.products__title {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.products__sort {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+}
+
+.products__select {
+    padding: 5px;
+
+    &:hover {
+        border-color:  #63D1BB;
+    }
+}
