@@ -4,12 +4,17 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    gap: 50px;
 }
 
 .footer__link {
     color: #000000;
 
     &:hover {
-        color: #63D1BB;
+        color: #63d1bb;
+    }
+
+    &--secondary:hover {
+        color: #e8a81d;
     }
 }

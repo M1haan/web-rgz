@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from '../../layout/header/header';
-import Advantages from '../../blocks/advantages/advantages';
+import AdvantagesList from '../../blocks/advantages-list/advantages-list';
+import advantages from '../../../mocks/advantages';
 
 function Main() : JSX.Element {
     return (
         <>
             <Header />
-            <Advantages />
+            <AdvantagesList advantages={advantages} />
         </>
     );
 }

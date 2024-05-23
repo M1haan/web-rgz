@@ -7,7 +7,7 @@ function ProductCard({ id, name, description, image, price }: Product): JSX.Elem
     const { addToCart } = useCart(); // Используем хук для доступа к состоянию корзины
 
     const handleAddToCart = () => {
-        addToCart({ id, name, price }); // Добавляем товар в корзину
+        addToCart({ id, name, price }); 
     };
 
     return (
